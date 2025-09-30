@@ -1,0 +1,50 @@
+body {
+    background-image: url("../FOTOS/image6.png");
+    background-color: lightskyblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.clientes {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.petroayle {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 115px;
+    color: gold;
+}
+.racao {
+    display: block;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+.borda1 {
+    text-align: center;
+    border: 2px solid black; 
+    margin: 20px auto;
+    padding: 10px;           
+    width: 70%;            
+    border-radius: 10px;
+    background-color: linen;    
+}
+.navegacao {
+            background-color: #0a2a81;
+            padding: 10px 0;
+            text-align: center;
+}
+.navegacao .link {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-weight: bold;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }

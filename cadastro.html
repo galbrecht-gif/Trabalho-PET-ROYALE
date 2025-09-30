@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Margem</title>
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+</head>
+<body>
+    <!-- Adicionando margem na Div -->
+     <div class="div">
+     <h1 class="amarelo">PET ROYALE - Cadastro dos Clientes</h1>
+     <img src="../FOTOS/image6.png" id="clashlogo">
+     </div>
+        <div class="navegacao">
+        <a class="link" href="#">Cães</a>
+        <a class="link" href="#">Gatos</a>
+        <a class="link" href="#">Comida</a>
+        <a class="link" href="entrada.html">Top decks</a>
+        <a class="link" href="jaime.html">Top global</a>
+        <a class="link" href="cadastro.html">Cadastro rank</a>
+    </div>
+    <div class="primeira">
+        <h2 class="titulos">Formulário de Cadastro do Cliente</h2>
+        <label for="nome">Nome completo:</label>
+        <br>
+        <input  type="text" id="nome" name="nome" required>
+        <br><br>
+        <label for="email">E-mail:</label>
+        <br>
+        <input type="email" id="email" name="email" placeholder="nome@email.com" required>
+        <br><br>
+        <label for="numero">Telefone:</label>
+        <br>
+        <input type="number" id="numero" name="numero" placeholder="(00)98765-4321" required>
+        <br><br>
+        <label for="animal">Preferências de animais:</label>
+        <br>
+        <select id="animal" name="animal">
+            <option value="naotenho">Não tenho preferências</option>
+            <option value="cachorro">Cachorros</option>
+            <option value="gato">Gatos</option>
+            <option value="passaro">Pássaros</option>
+            <option value="equino">Equinos</option>
+            <option value="peixes"></option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comentário adicional:</label>
+        <br>
+        <textarea class="d" name="comentarios" id="comentarios" rows="1" cols="10" placeholder="Observação..."></textarea>
+    </div>
+    <div class="segunda">
+        <h2 class="titulos">Formulário de Cadastro do Pet</h2>
+        <label for="nome">Nome do PET:</label>
+        <br>
+        <input  type="text" id="nome" name="nome" placeholder="Princeso da Silva" required>
+        <br><br>
+        <label for="raca">Animal e Raça:</label>
+        <br>
+        <input  type="text" id="raca" name="nome" placeholder="Cachorro, Vira-lata" required>
+        <br><br>
+        <label for="carac">Características do animal:</label>
+        <br>
+        <input  type="text" id="carac" name="carac" placeholder="Pelos brancos, mancha marrom, etc..." required>
+        <br><br>
+        <label for="servico">Serviços a serem prestados:</label>
+        <br>
+        <select id="servico" name="animal">
+            <option value="nenhum">Nenhum serviço</option>
+            <option value="banho">Banho</option>
+            <option value="tosa">Tosa</option>
+            <option value="banhoetosa">Banho e Tosa</option>
+        </select>
+        <br><br>
+        <label for="comentarios">Comentário adicional:</label>
+        <br>
+        <textarea class="d" name="comentarios" id="comentarios" rows="5" cols="50" placeholder="Observação, tipo de ração, alergias..."></textarea>
+        <br><br>
+        <input type="submit" value="Enviar formulários" class="c">
+    </div>
+</body>
+</html>
+
